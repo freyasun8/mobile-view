@@ -1,0 +1,116 @@
+body{
+	font-size:150%;
+	background-image: url("../images/bg3.jpeg");
+}
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+	color: rgb(8, 1, 17);
+	font-family: "Sofia",sans-serif;
+	text-align: center;
+}
+nav li{
+	display: inline;
+    margin-right: 5%;
+}
+
+.movie{
+	display: flex;
+    
+    flex-direction: row;
+	justify-content: space-around;
+}
+@keyframes logo{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+#Chole{
+    animation-name: logo;
+    animation-duration: 5s;
+}
+.container{
+	display:grid;
+}
+.director-image{
+	display: grid;
+	grid-column: 3/4;
+}
+.text{
+	display: grid;
+	grid-column: 1/3;
+
+}
+.overall{
+	border: 10px solid lightgray;
+	margin: 20px;
+
+}
+.active{
+	background: lightgrey;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+p{
+	text-align: center;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 10px;
+    border-style: groove;
+    border-image: initial;
+}
+
+img{
+    border: 3px solid white;
+	width: 200px; 
+	height: 180px;
+}
+img.portrait{
+	width: 150px;
+	height: 160px;
+}
+img:hover{
+	filter:sepia();
+	border: dashed;
+}
+#Chole{
+	display: block;
+    margin: 0px auto;
+	width: 200px;
+	height: 200px;
+}
+h2{
+	font-size: 1.5em; 
+	font-weight: bold;
+	text-align: center;
+	color:rebeccapurple;
+	font-family: "Sofia",sans-serif;
+}
+
+
+main, h1, footer{
+	border: 2px solid rgb(128, 128, 128);
+	margin: 10px 0;
+}
+
+
+nav li{
+	padding: 5px;
+	margin: 5px;
+}
+
+a:visited{color:black}
+@media screen and (prefers-reduced-motion: reduce) {
+    #img-form {
+      animation: none;
+    }
+}
+
+
